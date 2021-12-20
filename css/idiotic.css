@@ -1,0 +1,255 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+  font-family: 'Spectral', serif;
+  background-color: #f4f4f4;
+  color: #1F1F1F;
+}
+
+h1 {
+  font-family: 'Germania One', cursive;
+  color: #1F1F1F;
+  font-size: .5vw;
+ }
+
+h2, h4, h5 {
+  font-family: 'Comfortaa', cursive;
+  color: #1F1F1F;
+}
+
+h3 {
+  font-family: 'Spectral', cursive;
+  color: #1F1F1F;
+  text-align:right;
+  font-style:italic;
+  font-size
+}
+
+h7 {
+  font-family: 'Spectral', cursive;
+  color: #1F1F1F;
+  text-align: left;
+  font-style: italic;
+  font-size: 24px;
+}
+
+nav {
+  color: #1F1F1F;
+  a {
+    color: #1F1F1F; text-decoration: overline;
+  }
+}
+
+p {
+  text-align: justify;
+  line-height: 30px;
+  font-size: 18px;
+  color: #1F1F1F;
+
+}
+
+table,td,tr,th {
+  border-width: thin;
+  border-color:#f4f4f4;
+  border-style: groove;
+  padding: 1vw;
+  color: #f4f4f4;
+  background-color: #1F1F1F;
+  /* margin-bottom: 6vw; */
+}
+
+th {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+
+}
+
+footer {
+    margin: 50px 0;
+    font-family: 'Spectral', serif;
+}
+
+hr {
+  color:#1F1F1F;
+}
+
+code {
+  color: #ffd1dc;
+}
+
+blockquote {
+  margin: 3vw;
+  font-size: 5vw;
+  line-height: 5vw;
+  text-align: center;
+}
+
+button {
+  border-style: none;
+  border-color: #1F1F1F;
+  padding: 2.5vw;
+  width: 100%;
+  background: #f4f4f4;
+  color: #1F1F1F;
+  overflow: hidden;
+  position: relative;
+}
+
+figcaption {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.right {
+  float: right;
+  right: 0px;
+  text-align: right;
+}
+
+/**
+creates a bit of space
+*/
+.margin {
+  margin:20; padding:20px;
+}
+
+.header {
+font-size: 20vw;
+}
+
+.subheader {
+  text-align: right;
+  font-size: 5vw;
+}
+
+.subsubheader {
+  text-align: right;
+  font-size: 3vw;
+}
+
+.sectionheader {
+background-color:#1F1F1F;
+color: #f4f4f4;
+}
+
+h4.sectionheader {
+  text-align: justify;
+  padding: 1vw;
+
+}
+
+
+.subsectionheader {
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+  font-style: bold;
+  font-size: 24px;
+}
+
+.team-table {
+  background-color: #f4f4f4;
+  color: #1F1F1F;
+  border-width: 0px;
+}
+
+.img-fluid {
+  border: solid;
+  border-color: black;
+  border-width: thick;
+
+}
+
+/*!
+video will adjust size w/ window
+ */
+
+
+a {
+background-color: rgba(255, 255, 255, 0.9);
+  color: #1F1F1F;
+  text-decoration: overline;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.9);
+
+  text-decoration: line-through;
+  text-decoration-color: #f4f4f4;
+  text-decoration-style: wavy;
+}
+
+
+
+.responsive-video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 60px; overflow: hidden;
+}
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/*
+.pop {
+  background-color: #f4f4f4;
+  color: #1F1F1F;
+  text-align: right;
+  font-size: 20vw;
+  -webkit-transition: all 6s;
+  transition: all 2s;
+}
+
+
+.pop:hover {
+  background-color: #f4f4f4;
+  color: #1F1F1F;
+  text-align: center;
+  font-size: 4vw;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+
+p.pop:hover {
+  margin-top: 8vw;
+  margin-bottom:8vw;
+}
+
+*/
+
+@media only screen and (min-width: 300px) {
+div.home:hover {background:url("bg2.png") fixed;
+ background-size: 100% 100%;
+display: table;
+height: 100%;
+position: relative;
+width: 100%;
+}
+}
+@media only screen and (min-width: 400px) {
+
+
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+display: block;
+}
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
