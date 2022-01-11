@@ -2,6 +2,9 @@ body {
 
 
   font-family: 'Spectral', sans-serif;
+  background-color: #daff7d;
+  color: #595758;
+  font-size: large;
 }
 
 h1, h2, h3, h4 {
@@ -23,6 +26,24 @@ h3 {text-align: left;
   padding-top: 20px;
 }
 
+/* WebKit/Blink Browsers */
+::selection {
+  background: #ED6A5E;
+  ;
+}
+
+/* Gecko Browsers */
+::-moz-selection {
+  background: #ED6A5E;
+;
+}
+
+a {
+
+text-decoration: overline;
+background-color: #FFE4F3;
+
+}
 
 .embed-responsive.embed-responsive-ilpdglj {
   padding-bottom: 28%;

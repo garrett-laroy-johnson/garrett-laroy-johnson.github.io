@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta property="og:image" content="http://garrettlaroyjohnson.com/img/wastelands.jpg"/>
+
 
     <title>garrett laroy johnson // research-creation in experimental humanities and media arts</title>
 
@@ -23,18 +23,14 @@
     <script src = "js/navbar.js"></script>
     <!-- displaying different content -->
     <script src = "js/cosmic.js"></script>
-    <!-- Custom CSS-->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <!-- sidebar CSS-->
-    <link href="css/sidebar.css" rel="stylesheet" type="text/css">
+
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Germania+One|Spectral" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -44,15 +40,17 @@
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       Page Content -->
 
-
-
+      <!-- Custom CSS -->
+      <link href="css/style.css" rel="stylesheet">
+      <!-- sidebar CSS-->
+      <link href="css/sidebar.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <div class="page-container">
         <div class="row">
 
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navy-gary" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
 			<a id="menu-toggle" href="#" class="navbar-toggle">
@@ -65,21 +63,21 @@
 		</div>
 		<div id="sidebar-wrapper" class="sidebar-toggle">
 			<ul class="sidebar-nav">
-        <li><a href="#" onclick="loadDoc('about', 'main-space'); return false">about</a></li>
-        <li><a href="#" onclick="loadDoc('cv', 'main-space'); return false">curriculum vitae</a></li>
+        <li><a href="#" class= "side" onclick="loadDoc('about', 'main-space'); return false">about</a></li>
+        <li><a href="#" class= "side" onclick="loadDoc('cv', 'main-space'); return false">curriculum vitae</a></li>
         <!-- <li><a href="#" onclick="loadDoc('upcoming'); return false">upcoming + recent</a></li> -->
         <li>portfolio
           <ul style = "list-style: none; margin-left: -10%">
-            <li><a href = "#" onclick="loadDoc('portacular', 'main-space'); return false">portacular resonances</a></li>
-            <li><a href = "#" onclick="loadDoc('renao', 'main-space'); return false">renao 热闹</a></li>
-            <li><a href = "#" onclick="loadDoc('altereco', 'main-space'); return false">alter-eco socioinformatics</a></li>
-            <li><a href = "#" onclick="loadDoc('lanterns', 'main-space'); return false">lanterns</a></li>
-            <li><a href = "#" onclick="loadDoc('archive', 'main-space'); return false">archive</a></li>
+            <li><a class= "side" href = "#" onclick="loadDoc('portacular', 'main-space'); return false">portacular resonances</a></li>
+            <li><a class= "side" href = "#" onclick="loadDoc('renao', 'main-space'); return false">renao 热闹</a></li>
+            <li><a class= "side" href = "#" onclick="loadDoc('altereco', 'main-space'); return false">alter-eco socioinformatics</a></li>
+            <li><a class= "side" href = "#" onclick="loadDoc('lanterns', 'main-space'); return false">lanterns</a></li>
+            <li><a class= "side" href = "#" onclick="loadDoc('archive', 'main-space'); return false">archive</a></li>
           </ul>
         </li>
 
         <!-- <ul><li><a href = "#" onclick="loadDoc('cv'); return false">art</li></ul> -->
-        <li><a href="#" onclick="loadDoc('contact', 'main-space'); return false">contact</a></li>
+        <li><a class= "side" href="#" onclick="loadDoc('contact', 'main-space'); return false">contact</a></li>
       </ul>
 		</div>
   	</div>
