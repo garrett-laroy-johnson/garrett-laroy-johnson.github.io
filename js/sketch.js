@@ -1,47 +1,55 @@
+let g = ["g", "a", "r", "r", "e", "t", "t"];
+let l = ["l", "a", "r", "o", "y"];
+let j = ["j", "o", "h", "n", "s", "o", "n"];
+let gCoord = []; //index of corresponding lines points
+let lCoord = []; //index of corresponding lines points
+let jCoord = []; //index of corresponding lines points
+
 let frame = [innerWidth, innerHeight]
 let start = [frame[0]/2,frame[1]/2];
 let curves = [];
 let curvy = [];
+let swirly = [];
 let last = [0,0];
 let slowest;
 let jitter = [5,200]; //jitter mix and max
 let num = 250;
-
+let lines = [curves, curvy, swirly];
+let colors = ['#595758', '#ffeef2', '#ED6A5E'];
 
 
 function setup() {
  createCanvas(frame[0],frame[1]);
-
- stroke(0,0,0);
- genCurves(curves);
-
-   noFill();
+ noFill();
  strokeWeight(10);
- slowest = slow();
- genCurves(curvy);
- stroke(255,0,0);
-}
+
+
+ for (f=0;f<lines.length;f++){
+   let v = lines[f];
+
+   for(i=0;i<v.length;i++){
+   v[i].move();
+   }
+
+   stroke(colors[f]);
+   genCurves(lines[f]);
+
+ }
+ // slowest = slow();
+ }
 
 function draw() {
  background("#daff7d");
- if (abs(curves[slowest].x-curves[slowest].goal[0])<0.05) {
-     noLoop();
-   console.log("animation paused");
-     }
 
- for(i=0;i<curves.length;i++){
-   curves[i].move();
- }
- stroke('#595758');
-drawCurves(curves);
+for (f=0;f<lines.length;f++){
+  let v = lines[f];
+  for(i=0;i<v.length;i++){
+  v[i].move();
+  }
+  stroke(colors[f]);
+  drawCurves(lines[f]);
 
-   for(i=0;i<curvy.length;i++){
-   curvy[i].move();
- }
- stroke('#ffeef2');
-
-drawCurves(curvy);
-
+}
 
 }
 
@@ -74,6 +82,30 @@ this.y = lerp(this.y, this.goal[1], this.lrp);
 
 };
 
+
+let letter = class {
+ constructor(word, letter, line, index) {
+
+   this.line;
+   this.index;
+   this.letter = letter;
+   this.word =  word;
+    }
+
+
+ make() {
+
+  let x = this.line[this.index].x;
+  let y = this.line[this.index].y;
+
+  fill(0, 102, 153, 51);
+  text(this.word, x, y);
+
+ }
+};
+
+
+
 function mousePressed() {
 
  for (i=0;i<curves.length;i++){
@@ -83,21 +115,29 @@ function mousePressed() {
   for (i=0;i<curvy.length;i++){
    curvy[i].target();
  }
+
+ for (i=0;i<swirly.length;i++){
+  swirly[i].target();
+}
  loop();
  console.log("animation started")
 }
 
-
-function slow () {
- let slowest = [1, 0]; // speed and index
- for (i=0;i<curves.length;i){
-   let last = i-1;
-   if (slowest[0] < curves[i].lrp){
-     slowest = [curves[i].lrp,i];
-   }
-   return slowest[1];
- }
-}
+//
+// function slow() {
+//  let slowest = [0, 1]; //  index and speed
+//  for (f=0;f<lines.length;f++){
+//    let v = lines[f];
+//  for (i=0;i<v.length;i){
+//    let last = i-1;
+//    if (slowest[1] < v[i].lrp){
+//      slowest = [f, i];
+//    }
+//  }
+//
+//  }
+//   return slowest; // lines[i] then index
+// }
 
 
 function genCurves(line){
@@ -119,6 +159,7 @@ function genCurves(line){
 
     curveVertex(line[i].x,line[i].y);
 
+
   }
 
  curveVertex(height, width);
@@ -126,7 +167,10 @@ function genCurves(line){
   for (i=0;i<line.length;i++){
     line[i].target();
   }
+
 }
+
+
 
 function drawCurves (line){
   beginShape();
