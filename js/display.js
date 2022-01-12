@@ -3,7 +3,7 @@
   function loadDoc(name, dest, type) {
 
 
-
+window.scrollTo(0,0);
 
 
   var xhttp = new XMLHttpRequest();
