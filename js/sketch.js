@@ -1,9 +1,12 @@
 let g = ["g", "a", "r", "r", "e", "t", "t"];
 let l = ["l", "a", "r", "o", "y"];
 let j = ["j", "o", "h", "n", "s", "o", "n"];
-let gCoord = []; //index of corresponding lines points
-let lCoord = []; //index of corresponding lines points
-let jCoord = []; //index of corresponding lines points
+let letters = ["g","l","j"];
+
+let gLet = []; //letter objects
+let lLet = []; //letter objects
+let jLet = []; //letter objects
+let nameCoords = ["gLet","lLet","jLet"];
 
 let frame = [innerWidth, innerHeight]
 let start = [frame[0]/2,frame[1]/2];
@@ -25,14 +28,9 @@ function setup() {
 
 
  for (f=0;f<lines.length;f++){
-   let v = lines[f];
-
-   for(i=0;i<v.length;i++){
-   v[i].move();
-   }
-
    stroke(colors[f]);
    genCurves(lines[f]);
+   genLetters(f);
 
  }
  // slowest = slow();
@@ -48,8 +46,16 @@ for (f=0;f<lines.length;f++){
   }
   stroke(colors[f]);
   drawCurves(lines[f]);
+  }
 
-}
+// for (i=0;i<nameCoords.length;i++){
+//   let w = nameCoords[i];
+//   for (f=0;f<w.length;i++){
+//     w[f].make();
+//   }
+//
+//
+// }
 
 }
 
@@ -60,8 +66,7 @@ let curve = class {
    this.weight = weight;
    this.goal = [];
    this.lrp = (random(100)/2000);
-   this.jit = (random(jitter[1]-jitter[0])+jitter[0]);
-
+   this.jit = (random(jitter[1]-jitter[0])+jitter[0])
  }
 
 
@@ -83,41 +88,51 @@ this.y = lerp(this.y, this.goal[1], this.lrp);
 };
 
 
-let letter = class {
- constructor(word, letter, line, index) {
-
+let Letter = class {
+ constructor(letter, index, line) {
+   this.x;
+   this.y;
    this.line;
-   this.index;
-   this.letter = letter;
-   this.word =  word;
+   this.index = index;
+   this.letter = letter
     }
 
 
  make() {
 
-  let x = this.line[this.index].x;
-  let y = this.line[this.index].y;
+  this.x = this.line[this.index].x;
+  this.y = this.line[this.index].y;
 
   fill(0, 102, 153, 51);
-  text(this.word, x, y);
+  text(this.letter, this.x, this.y);
 
  }
-};
+}
 
+
+
+function genLetters(f){
+
+let c = nameCoords[f];
+
+for (i=0;i<lines[f].length;i++){
+
+
+let n = int(random(num));
+
+c[i] = new Letter(letters[i], n, lines[f]);
+
+}
+
+}
 
 
 function mousePressed() {
-
- for (i=0;i<curves.length;i++){
-   curves[i].target();
+for (f=0;f<lines.length;f++){
+  let v = lines[f];
+ for (i=0;i<lines[f].length;i++){
+   v[i].target();
  }
-
-  for (i=0;i<curvy.length;i++){
-   curvy[i].target();
- }
-
- for (i=0;i<swirly.length;i++){
-  swirly[i].target();
 }
  loop();
  console.log("animation started")
