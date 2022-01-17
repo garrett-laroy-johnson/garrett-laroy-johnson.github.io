@@ -2,9 +2,9 @@
 
   function loadDoc(name, dest, type) {
 
-
+if (dest ==="main-space"){
 window.scrollTo(0,0);
-
+}
 
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
