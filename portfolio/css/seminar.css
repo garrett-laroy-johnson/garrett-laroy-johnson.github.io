@@ -1,0 +1,14 @@
+th.week {
+  background-color: black;
+  color: white;
+  padding-bottom: 15px;
+}
+
+th.type {
+padding-bottom: 10px;
+}
+
+td {
+  padding-left: 20px;
+padding-bottom: 10px;
+}
