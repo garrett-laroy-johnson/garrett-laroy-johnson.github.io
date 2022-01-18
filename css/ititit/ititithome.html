@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" onmousedown="mouseDown()">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>Pure CSS Animated Bubbles</title>
+
+
+
+      <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+
+  <div class="background-wrap">
+  	<video id="video" autoplay loop muted>
+  		<source src="Triangles.mp4" type="video/mp4">
+  	</video>
+  </div>
+
+  <div id="background-wrap">
+    <div class="bubble x11"></div>
+    <div class="bubble x12"></div>
+    <div class="bubble x13"></div>
+    <div class="bubble x14"></div>
+    <div class="bubble x15"></div>
+    <div class="bubble x16"></div>
+    <div class="bubble x17"></div>
+    <div class="bubble x18"></div>
+    <div class="bubble x19"></div>
+    <div class="bubble x20"></div>
+
+    <button class="bubble x1"><a href="html/about.html" onclick="runFunction2()" target="search_iframe"><img src="circles/about.png" alt="about"></a></button>
+    <button class="bubble x2"><a href="html/team.html" onclick="runFunction2()" target="search_iframe"><img src="circles/team.png" alt="team"></a></button>
+    <button class="bubble x3"> <a href="html/pub.html" onclick="runFunction2()" target="search_iframe"><img src="circles/pub.png" alt="pub"></a></button>
+    <button class="bubble x4"><a href="html/offworld.html" onclick="runFunction2()" target="search_iframe"><img src="circles/offworld.png" alt="offworld"></a></button>
+    <button class="bubble x5"><a href="html/ir.html" onclick="runFunction2()" target="search_iframe"><img src="circles/ir.png" alt="ir"></a></button>
+    <button class="bubble x6"><a href="html/ttru.html" onclick="runFunction2()" target="search_iframe"><img src="circles/ttru.png" alt="ttru"></a></button>
+    <button class="bubble x7"><a href="html/dmwg.html" onclick="runFunction2()" target="search_iframe"><img src="circles/dmwg.png" alt="dmwg"></a></button>
+    <button class="bubble x8"><a href="html/d3Epdvb.html" onclick="runFunction2()" target="search_iframe"><img src="circles/d3Epdvb.png" alt="d3Epdvb"></a></button>
+    <button class="bubble x9"><a href="html/cosa.html" onclick="runFunction2()" target="search_iframe"><img src="circles/cosa.png" alt="cosa"></a></button>
+    <button class="bubble x10"><a href="html/contact.html" onclick="runFunction2()" target="search_iframe"><img src="circles/contact.png" alt="contact"></a></button>
+
+</div>
+
+
+<div id = "iframe">
+<iframe frameBorder="0" name="search_iframe"></iframe>
+</div>
+<script>
+function hideElem() {
+  if(document.getElementById("iframe").style.display = "none"){
+  document.getElementById('id').style.display = "none";}
+
+}
+function runFunction2(){
+ if(document.getElementById("iframe").style.display = "initial"){
+  document.getElementById('id').style.display= " initial";}
+}
+if(document.getElementById("iframe").style.display = "none"){
+document.getElementById('id').style.display = "none";}
+
+function mouseDown() {
+ document.getElementById("iframe").style.display = "none";
+ document.getElementById('id').style.display = "none";
+}
+
+// Random
+
+const time = Math.random() + .5; // I’m adding .5 here so the flicker isn’t too obnoxious
+
+const red = document.querySelector('#red');
+red.style.setProperty('--animation-time', time +'s');
+
+</script>
+
+</body>
+
+</html>
