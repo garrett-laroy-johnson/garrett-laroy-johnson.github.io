@@ -1,123 +1,98 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-
-    <title>garrett laroy johnson // research-creation in experimental humanities and media arts</title>
-
-      <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Spectral&display=swap" rel="stylesheet">
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
-    <!-- displaying different content -->
-    <script src = "js/display.js"></script>
-      <!-- sidebar navbar -->
-    <script src = "js/navbar.js"></script>
-    <!-- displaying different content -->
-    <script src = "js/cosmic.js"></script>
-    <!-- displaying different content -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-
-
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Germania+One|Spectral" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>garrett laroy johnson // research-creation in experimental humanities and media arts</title>
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Spectral&display=swap" rel="stylesheet">
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <!-- displaying different content -->
+  <script src="js/display.js"></script>
+  <!-- sidebar navbar -->
+  <script src="js/navbar.js"></script>
+  <!-- displaying different content -->
+  <script src="js/cosmic.js"></script>
+  <!-- displaying different content -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Germania+One|Spectral" rel="stylesheet">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       Page Content -->
-
-      <!-- Custom CSS -->
-      <link href="css/style.css" rel="stylesheet">
-      <!-- sidebar CSS-->
-      <link href="css/sidebar.css" rel="stylesheet" type="text/css">
-
-
-
-      <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
-      <link rel="manifest" href="fav/site.webmanifest">
-      <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
-      <meta name="msapplication-TileColor" content="#da532c">
-      <meta name="theme-color" content="#ffffff">
-
-
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- sidebar CSS-->
+  <link href="css/sidebar.css" rel="stylesheet" type="text/css">
+  <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+  <link rel="manifest" href="fav/site.webmanifest">
+  <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
   <div class="page-container">
-        <div class="row">
-
-<nav class="navbar navbar-default navy-gary" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<a id="menu-toggle" href="#" class="navbar-toggle">
-					<span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			</a>
-
-		</div>
-		<div id="sidebar-wrapper" class="sidebar-toggle">
-			<ul class="sidebar-nav">
-        <li><a href="#" class= "side" onclick="loadDoc('about', 'main-space'); return false">about</a></li>
-        <li><a href="#" class= "side" onclick="loadDoc('cv', 'main-space'); return false">curriculum vitae</a></li>
-        <li><a class= "side" href = "#" onclick="loadDoc('diss', 'main-space'); return false">dissertation</a></li>
-        <li><a class= "side" href = "#" onclick="loadDoc('teach', 'main-space'); return false">teaching</a></li>
-              <li><a class= "side" href = "#" onclick="loadDoc('org', 'main-space'); return false">organizing</a></li>
-        <!-- <li><a href="#" onclick="loadDoc('upcoming'); return false">upcoming + recent</a></li> -->
-        <li>portfolio
-          <ul style = "list-style: none; margin-left: -10%">
-
-<li><a class= "side" href = "#" onclick="loadDoc('diagrammatic', 'main-space'); return false">diagrammatic</a></li>
-            <li><a class= "side" href = "#" onclick="loadDoc('portacular', 'main-space'); return false">portacular resonances</a></li>
-            <li><a class= "side" href = "#" onclick="loadDoc('renao', 'main-space'); return false">renao 热闹</a></li>
-            <li><a class= "side" href = "#" onclick="loadDoc('altereco', 'main-space'); return false">alter-eco socioinformatics</a></li>
-            <li><a class= "side" href = "#" onclick="loadDoc('lanterns', 'main-space'); return false">lanterns</a></li>
-            <li><a class= "side" href = "#" onclick="loadDoc('archive', 'main-space'); return false">archive</a></li>
-          </ul>
-        </li>
-
-        <!-- <ul><li><a href = "#" onclick="loadDoc('cv'); return false">art</li></ul> -->
-        <li><a class= "side" href="#" onclick="loadDoc('contact', 'main-space'); return false">contact</a></li>
-      </ul>
-		</div>
-  	</div>
-</nav>
-
-
-
-          <!-- main area -->
-    <div class="col-xs-12 col-sm-3">
+    <div class="row">
+      <nav class="navbar navbar-default navy-gary" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a id="menu-toggle" href="#" class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+          </div>
+          <div id="sidebar-wrapper" class="sidebar-toggle">
+            <ul class="sidebar-nav">
+              <li><a href="#" class="side" onclick="loadDoc('about', 'main-space'); return false">about</a></li>
+              <li><a href="#" class="side" onclick="loadDoc('cv', 'main-space'); return false">curriculum vitae</a></li>
+              <li><a class="side" href="#" onclick="loadDoc('diss', 'main-space'); return false">dissertation</a></li>
+              <li><a class="side" href="#" onclick="loadDoc('teach', 'main-space'); return false">teaching</a></li>
+              <li><a class="side" href="#" onclick="loadDoc('org', 'main-space'); return false">organizing</a></li>
+              <!-- <li><a href="#" onclick="loadDoc('upcoming'); return false">upcoming + recent</a></li> -->
+              <li>portfolio <ul style="list-style: none; margin-left: -10%">
+                  <li><a class="side" href="#" onclick="loadDoc('diagrammatic', 'main-space'); return false">diagrammatic</a></li>
+                  <li><a class="side" href="#" onclick="loadDoc('portacular', 'main-space'); return false">portacular resonances</a></li>
+                  <li><a class="side" href="#" onclick="loadDoc('renao', 'main-space'); return false">renao 热闹</a></li>
+                  <li><a class="side" href="#" onclick="loadDoc('altereco', 'main-space'); return false">alter-eco socioinformatics</a></li>
+                  <li><a class="side" href="#" onclick="loadDoc('lanterns', 'main-space'); return false">lanterns</a></li>
+                  <li><a class="side" href="#" onclick="loadDoc('archive', 'main-space'); return false">archive</a></li>
+                </ul>
+              </li>
+              <!-- <ul><li><a href = "#" onclick="loadDoc('cv'); return false">art</li></ul> -->
+              <li><a class="side" href="#" onclick="loadDoc('contact', 'main-space'); return false">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- main area -->
+      <div class="col-xs-12 col-sm-3">
+      </div>
+      <div class="col-xs-12 col-sm-9">
+        <div id="main-space">
+          <script src="js/sketch.js"></script>
+        </div>
+      </div><!-- /.col-xs-12 main -->
     </div>
-          <div class="col-xs-12 col-sm-9">
-            <div id="main-space">
-
-              <script src="js/sketch.js"></script>
-            </div>
-          </div><!-- /.col-xs-12 main -->
-      </div><!--/.row-->
-
-  </div><!--/.page-container-->
-
-
+    <!--/.row-->
+  </div>
+  <!--/.page-container-->
 </body>
 
 </html>
