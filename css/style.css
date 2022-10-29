@@ -2,7 +2,8 @@ body {
 
 
   font-family: 'Spectral', sans-serif;
-  background-color: #daff7d;
+  background-color: #FFEEF2;
+
   color: #595758;
   font-size: large;
 }
@@ -49,8 +50,8 @@ h3 {text-align: left;
 a {
 
 text-decoration: overline;
-background-color: #FFE4F3;
 
+background-color: #daff7d;
 
 }
 

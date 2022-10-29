@@ -16,7 +16,7 @@ let slowest;
 let jitter = [5, 200]; //jitter mix and max
 let num = 250;
 let lines = [curves, curvy, swirly];
-let colors = ['#595758', '#ffeef2', '#ED6A5E'];
+let colors = ['#595758', "#daff7d", '#ED6A5E'];
 
 function setup() {
   createCanvas(frame[0], frame[1]);
@@ -31,7 +31,7 @@ function setup() {
 }
 
 function draw() {
-  background("#daff7d");
+  background('#ffeef2');
   for (f = 0; f < lines.length; f++) {
     let v = lines[f];
     for (i = 0; i < v.length; i++) {
