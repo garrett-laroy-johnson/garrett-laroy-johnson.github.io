@@ -1,0 +1,40 @@
+<!Doctype html>
+<html>
+<head>
+  <link href="frame.css" rel="stylesheet">
+</head>
+<body>
+
+  <!--<iframe  src= "internship.html" width="200px" height= "200px"mname= "iframe"></iframe> -->
+  <a href="html/about.html" onclick="runFunction2()" target="search_iframe">About</a>
+  <a href="html/contact.html" onclick="runFunction2()" target="search_iframe">Contact</a>
+  <a href="html/cosa.html" onclick="runFunction2()" target="search_iframe">Cosa</a>
+  <a href="html/d3Epdvb.html" onclick="runFunction2()" target="search_iframe">d3Epdvb</a>
+  <a href="html/dmwg.html" onclick="runFunction2()" target="search_iframe">dmwg</a>
+  <a href="index.html" onclick="runFunction2()" target="search_iframe">Index</a>
+  <a href="html/ir.html" onclick="runFunction2()" target="search_iframe">Ir</a>
+  <a href="html/offworld.html" onclick="runFunction2()" target="search_iframe">Offworld</a>
+  <a href="html/pub.html" onclick="runFunction2()" target="search_iframe">Pub</a>
+  <a href="html/team.html" onclick="runFunction2()" target="search_iframe">Team</a>
+  <a href="html/ttru.html" onclick="runFunction2()" target="search_iframe">ttru</a>
+
+
+<!--<iframe  src= "internship.html" width="200px" height= "200px"mname= "iframe"></iframe> -->
+<button id="id" type="button" onclick="hideElem()">X</button>
+<div id = "iframe">
+<iframe frameBorder="0" name="search_iframe"></iframe>
+</div>
+<script>
+function runFunction2(){
+ document.getElementById("iframe").style.display = "initial";
+  document.getElementById('id').style.display= " initial";
+}
+function hideElem() {
+  document.getElementById("iframe").style.display = "none";
+  document.getElementById('id').style.display = "none";
+}
+
+
+</script>
+</body>
+</html>

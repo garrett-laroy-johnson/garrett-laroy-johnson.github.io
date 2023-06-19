@@ -1,0 +1,418 @@
+---
+layout: nonav.njk
+style: cv.css
+paged: true
+---
+
+<h2 style="text-align: right">garrett laroy johnson</h2>
+<h3 style="text-align: right">curriculum vitae</h3>
+
+{% if positions %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h4>academic positions</h4></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for p in positions %}
+    <tr>
+      <td class="col-2">{{ p.start }}-{{ p.end }}</td>
+      <td>{{ p.institution }}</td>
+      <td>{{ p.title }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endif %} {% if education %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h4>education</h4></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in education %}
+    <tr>
+      <td class="col-2">{{ e.start }}-{{ e.end }}</td>
+
+      <td>
+        {{ e.degree }}
+        {%if e.thesis%}
+        <br />{{ e.thesis }}<br />
+        {{ e.committee }}{%endif%}
+      </td>
+      <td>{{ e.title }}</td>
+      <td>{{ e.school }}</td>
+      <td>{{ e.email }}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+{% endif %} {% if otherEd%}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h5>other</h5></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in otherEd %}
+    <tr>
+      <td class="col-2">{{ e.start }}-{{ e.end }}</td>
+
+      <td>
+        {{ e.title }}
+      </td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+{%endif %} {% if teaching %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <thead>
+      <tr>
+        <th col-span="3"><h4>teaching experience</h4></th>
+      </tr>
+    </thead>
+  </thead>
+</table>
+
+{%for t in teaching %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <thead>
+      <tr>
+        <th col-span="3">
+          <h5>{{t.school}}, {{ t.span }}</h5>
+        </th>
+      </tr>
+    </thead>
+  </thead>
+  <tbody>
+    {% for c in t.courses %}
+    <tr>
+      <td class="col-5">{{ c.term }}</td>
+      <td>{{ c.des }} {{c.course}}</td>
+    </tr>
+    {%endfor%} {%endfor%}
+  </tbody>
+</table>
+
+{% endif %} {% if pubs %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h4>journal articles</h4></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for p in pubs.articles %}
+    <tr>
+      <td class="col-2">{{ p.date }}</td>
+
+      <td>{{ p.authors }}. {{p.title}}. In {{p.journal}}.</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h4>conference proceedings</h4></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for p in pubs.conference %}
+    <tr>
+      <td class="col-2">{{ p.date }}</td>
+
+      <td>{{ p.authors }}. {{p.title}}. In {{p.journal}}.</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h4>book chapters</h4></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for p in pubs.book %}
+    <tr>
+      <td class="col-2">{{ p.date }}</td>
+
+      <td>{{ p.authors }}. {{p.title}}. In {{p.journal}}.</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h4>other publications</h4></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for p in pubs.other %}
+    <tr>
+      <td class="col-2">{{ p.date }}</td>
+
+      <td>{{p.title}}. In {{p.journal}}.</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+{% endif %} {% if grants %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h4>grants & fellowships</h4></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for g in grants %}
+    <tr>
+      <td class="col-2">{{ g.date }}</td>
+
+      <td>{{ g.grant }}</td>
+      <td>
+        {{ g.agent }}
+      </td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+{% endif %} {% if awards %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h4>awards & honors</h4></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for a in awards %}
+    <tr>
+      <td class="col-2">{{ a.date }}</td>
+
+      <td>{{ a.grant }}</td>
+      <td>
+        {{ a.agent }}
+      </td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+{% endif %} {% if invited %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h4>invited talks & panels</h4></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for i in invited %}
+    <tr>
+      <td class="col-2">{{ i.date }}</td>
+      <td>{{ i.item }}</td>
+      <td>{{ i.place }}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+{% endif %} {% if conferences%}
+
+<h4>conference activity/participation</h4>
+
+{% endif %} {% if conferences.org %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <thead>
+      <tr>
+        <th col-span="3"><h5>conferences & events organized</h5></th>
+      </tr>
+    </thead>
+  </thead>
+  <tbody>
+    {% for o in conferences.org %}
+    <tr>
+      <td class="col-2">{{ o.date }}</td>
+      <td>{{ o.conf }}</td>
+      <td>{{ o.place }}</td>
+      <td>{{ o.role }}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+{% endif %} {% if conferences.panels %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h5>panels organized</h5></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for o in conferences.panels %}
+    <tr>
+      <td class="col-2">{{ o.date }}</td>
+      <td>{{ o.title }}</td>
+      <td>{% if o.colab %}w. {{ o.colab }}<br />{%endif%} inc. {{ o.inc }}</td>
+      <td>{{ o.conf }}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+{% endif %} {% if conferences.papers %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h5>papers presented</h5></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for o in conferences.papers %}
+    <tr>
+      <td class="col-2">{{ o.date }}</td>
+      <td>"{{ o.title }}"{% if o.colab %}<br />w. {{ o.colab }}{%endif%}</td>
+      <td>{{ o.conf }}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+{% endif %} {% if conferences.discuss %}
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h5>panel discussant</h5></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for o in conferences.discuss %}
+    <tr>
+      <td class="col-2">{{ o.date }}</td>
+      <td>"{{ o.title }}"{% if o.colab %}<br />w. {{ o.colab }}{%endif%}</td>
+      <td>{{ o.conf }}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+{% endif %} {% if conferences.workshops %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h5>conference workshops</h5></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for o in conferences.workshops %}
+    <tr>
+      <td class="col-2">{{ o.date }}</td>
+      <td>"{{ o.title }}"{% if o.colab %}<br />w. {{ o.colab }}{%endif%}</td>
+      <td>{{ o.conf }}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+{% endif %} {% if art %}
+<h4>media art vitae (selected)</h4>
+{% endif %}
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h5>performances</h5></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for o in art.performances %}
+    <tr>
+      <td class="col-2">{{ o.date }}</td>
+      <td>
+        <i>{{ o.title }}</i
+        >. {{ o.desc }}{% if o.colab %}<br />w. {{ o.colab }}{%endif%} {% if
+        o.media %}<br />{{ o.media }}{%endif%}
+      </td>
+      <td>{{ o.venue }}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+<table class="table table-sm table-borderless">
+  <thead>
+    <tr>
+      <th col-span="3"><h5>installations</h5></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for o in art.performances %}
+    <tr>
+      <td class="col-2">{{ o.date }}</td>
+      <td>
+        <i>{{ o.title }}</i
+        >. {{ o.desc }}{% if o.colab %}<br />w. {{ o.colab }}{%endif%} {% if
+        o.media %}<br />{{ o.media }}{%endif%}
+      </td>
+      <td>{{ o.venue }}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+
+{% if references %}
+
+<h4>professional references</h4>
+
+<table class="table table-sm table-borderless">
+  <thead></thead>
+  <tbody>
+    {% for r in references %}
+    <tr>
+      <td>{{ r.name }}</td>
+      <td>{{ r.title }}</td>
+      <td>{{ r.school }}</td>
+      <td>{{ r.email }}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+{% endif %} {% if skills %}
+<div class="row">
+  <div class="col-xs-12">
+    <h4>technical skills</h4>
+  </div>
+</div>
+
+{% endif %}

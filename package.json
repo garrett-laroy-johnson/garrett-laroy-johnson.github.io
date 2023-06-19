@@ -1,0 +1,27 @@
+{
+  "name": "garrett-laroy-johnson.github.io",
+  "version": "1.0.0",
+  "description": "personal website for Garrett Laroy Johnson",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrett-laroy-johnson/garrett-laroy-johnson.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrett-laroy-johnson/garrett-laroy-johnson.github.io/issues"
+  },
+  "homepage": "https://github.com/garrett-laroy-johnson/garrett-laroy-johnson.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

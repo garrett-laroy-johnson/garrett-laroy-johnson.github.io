@@ -1,0 +1,35 @@
+---
+layout: base.njk
+---
+
+<nav class="navbar navbar-default navy-gary" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a id="menu-toggle" href="#" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+    </div>
+    <div id="sidebar-wrapper" class="sidebar-toggle">
+      <ul class="sidebar-nav">
+        {% for n in collections.nav %}
+        <li>
+          <a href="{{n.url}}" class="side">{{n.data.title}}</a>
+        </li>
+        {% endfor%}
+      </ul>
+    </div>
+  </div>
+</nav>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-2"></div>
+      <div class="col-xs-10">
+        {{content | safe }}
+      </div>
+    </div>
+  </div>
+</body>
