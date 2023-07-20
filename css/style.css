@@ -1,74 +1,83 @@
-body {
-
-
-  font-family: 'Spectral', sans-serif;
-  background-color: #FFEEF2;
-
-  color: #595758;
-  font-size: large;
+:root {
+    /* --background-color: #ffeef2ef; */
+    --background-color: #ffeef2;
+    --text-color: #595758;
 }
 
+body {
+    font-family: 'Spectral', sans-serif;
+    background-color: var(--background-color);
+    /* background-color: lightcoral; */
+    color: var(--text-color);
+    font-size: large;
+}
 
-h1, h2, h3, h4 {
-font-family: 'Comfortaa', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Comfortaa', sans-serif;
 }
 .edu {
-  text-indent:-10%;
+    text-indent: -10%;
 }
 
-h2 {text-align: right;
-  text-decoration: overline;)
+h2 {
+    text-align: right;
+    text-decoration: overline;
 }
 
-h3 {text-align: left;
-  text-decoration: underline;)
+h3 {
+    text-align: left;
+    text-decoration: underline;
 }
 
 .text-center {
-  padding-top: 20px;
+    padding-top: 20px;
 }
 
-/* WebKit/Blink Browsers */
-::selection {
-  background: #ED6A5E;
-  ;
-}
-
-/* Gecko Browsers */
-::-moz-selection {
-  background: #ED6A5E;
-;
-}
-
-
-
-.nail-gary {
-  background-color:#FFEEF2;
-  border: none;
+::selection, /* WebKit/Blink Browsers */
+::-moz-selection /* Gecko Browsers */ {
+    background: #ed6a5e;
 }
 
 a {
-
-text-decoration: overline;
-
-background-color: #daff7d;
-
+    text-decoration: overline;
+    background-color: #daff7d;
 }
 
+/* p5 sketch is mounted to main element*/
+main {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* padding on right right and left of text */
+/* #main-space { */
+    /* padding-inline: 1rem; */
+/* } */
+
+/* --- below is not being used for anything --- */
+
+/* 
 .embed-responsive.embed-responsive-ilpdglj {
-  padding-bottom: 28%;
+    padding-bottom: 28%;
 }
 
 .embed-responsive.embed-responsive-1by1 {
-  padding-bottom: 100%;
-}
+    padding-bottom: 100%;
+} */
 
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
+/* .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+} */
