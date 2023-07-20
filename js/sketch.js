@@ -49,6 +49,11 @@ function draw() {
   //
   // }
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 let curve = class {
   constructor(x, y, weight) {
     this.x = x;

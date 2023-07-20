@@ -1,6 +1,7 @@
 #sidebar-wrapper {
 
 left: -250px;
+top: 0;
 width: 250px;
 background-color: #FFEEF2;
 color: #595758;
@@ -47,17 +48,17 @@ left: 250px;
 
 
 .navy-gary {
-background-color: #FFEEF2;
+background-color: transparent;
   border: none;
+  min-height: auto;
+  margin: 0;
   /* visibility: hidden; */
 }
 
 
 div.navbar-header {
-  background-color: #FFEEF2;
   color: #595758;
   border: 0px;
-  margin-top: -1px
 }
 
 a.menu-toggle {
@@ -76,6 +77,13 @@ span.icon-bar {
 
     color: #595758;
 
+}
+
+.navbar-toggle {
+  background-color: #FFEEF2;
+  display: fixed;
+  right: 1rem;
+  top: 0;
 }
 
 a.side {
