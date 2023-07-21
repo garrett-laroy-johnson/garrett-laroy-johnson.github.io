@@ -17,11 +17,11 @@ font-family: 'Comfortaa', sans-serif;
 }
 
 h2 {text-align: right;
-  text-decoration: overline;)
+  text-decoration: overline;
 }
 
 h3 {text-align: left;
-  text-decoration: underline;)
+  text-decoration: underline;
 }
 
 .text-center {
@@ -45,6 +45,16 @@ h3 {text-align: left;
 .nail-gary {
   background-color:#FFEEF2;
   border: none;
+}
+
+/* p5 sketch is mounted to main element*/
+main {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 a {

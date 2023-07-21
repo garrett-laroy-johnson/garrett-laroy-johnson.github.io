@@ -1,7 +1,7 @@
 $(window).resize(function() {
 	var path = $(this);
 	var contW = path.width();
-	if(contW >= 751){
+	if(contW >= 768){
 		document.getElementsByClassName("sidebar-toggle")[0].style.left="250px";
 
 		//	document.getElementsByClassName("navy-gary")[0].style.visibility="hidden";
