@@ -20,4 +20,7 @@ function loadDoc(name, dest, type) {
   }
   xhttp.open("GET", `../html/${name}.html`, true);
   xhttp.send();
+  if (window.innerWidth < 768) {
+    document.getElementsByClassName("sidebar-toggle")[0].style.left="-250px";
+  }
 }
