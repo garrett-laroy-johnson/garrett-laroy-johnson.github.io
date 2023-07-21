@@ -8,6 +8,7 @@ color: #595758;
 position: fixed;
 height: 100%;
 z-index: 1;
+overflow-y: scroll;
 }
 .sidebar-nav {
 position: absolute;
