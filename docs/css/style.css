@@ -1,0 +1,29 @@
+body {
+  font-size: 30pt;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Major Mono Display";
+  background-color: #f5eccd;
+  color: rgb(35, 33, 33);
+}
+
+main {
+  padding-top: 20%;
+}
+
+a:hover {
+  color: #fcc8c2;
+}
+
+a:visited {
+  color: #1b065e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Major Mono Display";
+}
