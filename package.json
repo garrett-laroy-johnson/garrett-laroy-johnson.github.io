@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "eleventy-plugin-clean": "^1.2.6",
+    "eleventy-plugin-seo": "^0.5.2",
+    "luxon": "^3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  }
+}
