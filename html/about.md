@@ -1,4 +1,4 @@
-# about
+## ABOUT
 
 I'm currently on faculty at the School of the Art Institute of Chicago in the department of [Art and Technology Studies](https://www.saic.edu/academics/departments/art-and-technology-studies/), where I [teach art and technology practices and interactive art + creative code](http://www.practices.digital). Next year, I'll introduce a course called Anxious Media Ecology: Anxiety and/as Technology of Resistance.
 

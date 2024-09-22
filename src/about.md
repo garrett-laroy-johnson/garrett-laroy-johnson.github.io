@@ -3,8 +3,6 @@ layout: base.njk
 title: about
 ---
 
-## about garrett
-
 I'm an media artist, theorist, researcher, educator, writer, organizer, and programmer.
 
 My generalist approach to media allows me to work broadly across disciplines, domains, and institutions with specialization in generative and responsive computational media and post-psychoanalytic/post-cybernetic process philosophy.

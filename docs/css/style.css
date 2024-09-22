@@ -1,10 +1,14 @@
 body {
-  font-size: 30pt;
+  font-size: 26pt;
   margin-left: 5%;
   margin-right: 5%;
-  font-family: "Major Mono Display";
+  font-family: "Golos Text";
   background-color: #f5eccd;
   color: rgb(35, 33, 33);
+}
+
+iframe {
+  padding-top: 16pt;
 }
 
 main {
