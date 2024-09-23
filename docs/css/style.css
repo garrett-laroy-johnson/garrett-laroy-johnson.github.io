@@ -4,24 +4,51 @@ body {
   margin-right: 5%;
   font-family: "Golos Text";
   background-color: #f5eccd;
-  color: rgb(35, 33, 33);
+  color: #232121;
 }
 
 iframe {
   padding-top: 16pt;
 }
 
+.header {
+  padding-top: 5pt;
+}
+
 main {
-  padding-top: 20%;
+}
+
+a {
+  color: #6f2dbd;
+  font-size: xx-large;
+  transition-duration: 500ms;
+  /* color: ; */
 }
 
 a:hover {
-  color: #fcc8c2;
+  /* color: #5bc3eb; */
+  color: #1b065e;
+  font-size: xxx-large;
+  transition-duration: 500ms;
 }
 
-a:visited {
-  color: #1b065e;
+#links.a {
+  color: #6f2dbd;
+  font-size: xx-large;
+  transition-duration: 1000ms;
+  /* color: ; */
 }
+
+a:hover {
+  /* color: #5bc3eb; */
+  color: #1b065e;
+  font-size: xxx-large;
+  transition-duration: 500ms;
+}
+
+/* a:visited {
+  color: #1b065e;
+} */
 
 h1,
 h2,

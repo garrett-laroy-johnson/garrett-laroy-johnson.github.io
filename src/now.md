@@ -1,15 +1,15 @@
 ---
 layout: base.njk
-title: now
+title: NOW
 ---
-
-## NOW
 
 Leonardo Journal's peer-review has recognized my dissertation abstract as a top submission to their [abstract database](https://leonardo.info/graduate-abstracts?gad_source=1&gclid=CjwKCAjwl6-3BhBWEiwApN6_kn8blU9qdZp0qEBIsouYt4SSTRcvjpxzVoBjVI4HgpV_U5gTUt3VixoCOkUQAvD_BwE) and will be printed in their late 2024 publication.
 
 Invited talk at NYU Tisch: "Media Diagrammatics and the Emergence of Subjectivity".
 
-Designed and teaching a new MFA graduate seminar call [Chaosmotic Systems: Chaos, Culture, and Cosmology](https://practices.digital/saic/mfa5010/) in AT/SP at SAIC.
+In Spring 2025, chosen to design UIC's School of Art and Art History's graduate seminar. More-than-human experience and sensation. Grounded in William James, James Gibson, Henri Bergson, Charles Peirce, and Alfred North Whitehead. Further: enactivism and embodied cognition, affect theory, panpsychism, and ecological thought in art practice.
+
+Proposed, designed and teaching a new MFA graduate seminar called [Chaosmotic Systems: Chaos, Culture, and Cosmology](https://practices.digital/saic/mfa5010/) in AT/SP at SAIC.
 
 SAIC's Dean's Office warded a course enrichment grant $600 for the above course to invite three guest discussants, including Brian Holmes. The conversations will be recorded and posted to my teaching website.
 

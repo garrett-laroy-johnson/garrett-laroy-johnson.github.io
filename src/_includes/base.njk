@@ -32,6 +32,21 @@
 <main>
        {# Page or post content will appear here #}
   
+
+<div class = "header">
+{% if header %}
+
+<img width = 100% src = {{header}}>
+
+{% else %}
+
+<div style = "padding:20%">
+  </div>
+
+{% endif %}
+</div>
+
+
     <h2>{{ title }}</h2>
 
     {{ content | safe }}

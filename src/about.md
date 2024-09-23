@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: about
+header: /assets/headers/headshot.png
 ---
 
 I'm an media artist, theorist, researcher, educator, writer, organizer, and programmer.
