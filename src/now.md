@@ -9,7 +9,11 @@ Leonardo Journal's peer-review has recognized my dissertation abstract as a top 
 
 Invited talk at NYU Tisch: "Media Diagrammatics and the Emergence of Subjectivity".
 
-Designed and teaching a new MFA graduate seminar call [Chaosmotic Systems: Chaos, Culture, and Cosmology](https://practices.digital/saic/mfa5010/) in AT/SP at SAIC. I was awarded a course enrichment grant to invite three guest discussants, including Brian Holmes. The conversations will be recorded and posted to my teaching website.
+Designed and teaching a new MFA graduate seminar call [Chaosmotic Systems: Chaos, Culture, and Cosmology](https://practices.digital/saic/mfa5010/) in AT/SP at SAIC.
+
+SAIC's Dean's Office warded a course enrichment grant $600 for the above course to invite three guest discussants, including Brian Holmes. The conversations will be recorded and posted to my teaching website.
+
+SAIC's Center for Teaching and Learning awarded me a $500 grant to develop a Wiki structure for my grad seminar's website. Students will create and edit pages for transdisciplinary concepts as part of their coursework.
 
 Speaking at the Society for Literature Science and the Arts in Dallas about the live-action role play called I WANT AN AI FOR PRESIDENT.
 
@@ -17,9 +21,11 @@ Speaking at the Society for Literature Science and the Arts in Dallas about the 
 
 ### SUMMER 2024
 
-Organized and ran a workshop around CCAM EARTH at Watershed Art & Ecology in Pilsen, Chicago.
+Finalist for [UCLA/UCSD Innovation, Culture, and Creativity](https://icc.ucla.edu/invited-workshop-concepts/) grant (National Science Foundation: $75,000) in collaboration between CCAM and SUNY Purchase (Lee Tusman).
 
-Invited and hosted conversations around technology the community-generating aspects of Chicago House Music at an event called FUTURHYTHMMACHINES with guests Dr. Thomas DeFrantz, Dr. Meida McNeal, and Duane Powell.
+Organized and ran a workshop with [CCAM EARTH](https://ccam.world/resources/ccam-earth) and Chicago House Music at Watershed Art & Ecology in Pilsen, Chicago.
+
+Invited and hosted conversations around technology the community-generating aspects of Chicago House Music at an event called [FUTURHYTHMMACHINES::CHICAGO HOUSE](https://ccam.world/programs/24-5-10-future-rhythm-machines-chicago-house/) with guests Dr. Thomas DeFrantz, Dr. Meida McNeal, and Duane Powell.
 
 Hired at Leonardo/ISAST as a researcher on a project investigating the intersection of artistic sentiment, scientific knowledge economy, and industrial innovation.
 

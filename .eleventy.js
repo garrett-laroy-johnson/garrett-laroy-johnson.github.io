@@ -10,7 +10,8 @@ const clean = require("eleventy-plugin-clean");
  */
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("**/*.pdf");
+  eleventyConfig.addPlugin(clean);
+  eleventyConfig.addPassthroughCopy("*.pdf");
   eleventyConfig.setTemplateFormats([
     // Templates:
     "html",
