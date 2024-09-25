@@ -1,7 +1,8 @@
 ---
 title: Renao 热闹
-tags: project
-layout: base.njk
+layout: project.njk
+subtitle: Heat-and-noise, urban media installation
+year : 2019
 date: 2018-01-02
 ---
 

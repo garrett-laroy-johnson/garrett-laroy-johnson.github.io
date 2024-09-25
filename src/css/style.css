@@ -7,6 +7,10 @@ body {
   color: #232121;
 }
 
+#vimeo {
+  padding-top: 16pt;
+}
+
 iframe {
   padding-top: 16pt;
 }

@@ -1,7 +1,8 @@
 ---
 tags: project
-title: lanterns (2017-19)
-layout: base.njk
+title: lanterns
+year : 2017-2019
+layout: project.njk
 date: 2017-07-07
 ---
 

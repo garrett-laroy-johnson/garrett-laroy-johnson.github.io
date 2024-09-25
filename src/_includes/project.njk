@@ -1,0 +1,10 @@
+---
+layout: base.njk
+tags: project
+---
+<p style = "text-align:right"> {{subtitle }} ({{ year }}) </p>
+{%if collaborators%}
+<p style = "text-align:right; text-size:l">collaboration with: {{collaborators}}</p>
+{%endif %}
+{{content | safe }}
+

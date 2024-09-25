@@ -20,7 +20,7 @@ More at [teaching](/teaching).
 
 ### education
 
-I received my PhD in [Media Arts and Sciences](https://artsmediaengineering.asu.edu/degree-programs/media-arts-and-sciences-phd) at Arizona State University in December 2022. I also earned a [Critical Theory certificate](https://english.asu.edu/degree/graduate/critical-theory-certificate-cert). At graduation, I was recognized as the outstanding graduate student of the Art and Design college.
+I received my PhD in [Media Arts and Sciences](https://artsmediaengineering.asu.edu/degree-programs/media-arts-and-sciences-phd) at Arizona State University in December 2022. I also earned a [Critical Theory certificate](https://english.asu.edu/degree/graduate/critical-theory-certificate-cert). At graduation, I was recognized as the outstanding graduate student of the Art and Design college. ASU made a [nice video](https://www.youtube.com/watch?v=ggAxcU4qU0s) about me.
 
 I have an MA in musicology and a B.Music in Music History from Ohio University. I studied German intensively in undergrad and received a DAAD award to study musicology at the University of Leipzig in 2012.
 

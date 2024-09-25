@@ -1,6 +1,7 @@
 ---
-layout: base.njk
+layout: project.njk
 title: thermal economies
+year: 2018
 date: 2018-01-01
 ---
 

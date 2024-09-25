@@ -1,8 +1,9 @@
 ---
-title: GULCH (2015-16)
+title: GULCH
 date: 2015-10-10
-layout: base.njk
+layout: project.njk
 tags: project
+year: 2015-16
 ---
 
 Gulch was a dark ambient improvisation trio based in Phoenix Arizona from 2015-2016.
