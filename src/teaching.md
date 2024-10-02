@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: TEACHING
-header: /assets/headers/teaching.jpg
+header: teaching.jpg
 ---
 
 Since 2019 I've taught art and technology studio courses as well as theory seminars at diverse institutions of higher education. I currently teach in the [School of the Art Institute of Chicago's Art and Technology / Sound Practices](https://www.saic.edu/atsp) department and at the University of Illinois Chicago's New Media Art division.
