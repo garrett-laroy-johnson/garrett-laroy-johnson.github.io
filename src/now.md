@@ -3,9 +3,13 @@ layout: base.njk
 title: NOW
 ---
 
+I am on the job market for both academic jobs (full-time tenure-track || visiting assistant professor) as well as non-academic curatorial and arts organizational positions! I'm happy to talk with hiring committees to see about fit.
+
 Leonardo Journal's peer-review has recognized my dissertation abstract as a top submission to their [abstract database](https://leonardo.info/graduate-abstracts?gad_source=1&gclid=CjwKCAjwl6-3BhBWEiwApN6_kn8blU9qdZp0qEBIsouYt4SSTRcvjpxzVoBjVI4HgpV_U5gTUt3VixoCOkUQAvD_BwE) and will be printed in their late 2024 publication.
 
-Invited talk 10.17.24 at NYU Tisch: "Media Diagrammatics and the Emergence of Subjectivity".
+Invited and funded to participate at [MDW 2024 Summit in Kansas City](https://mdw.art/summit) November 2024. I'll be representing CCAM, a Chicago-based theory|practice art and technology (501c3) I founded in 2023.
+
+Invited talk in October at NYU Tisch IDM: "Media Diagrammatics and the Emergence of Subjectivity".
 
 In Spring 2025, chosen to design UIC's School of Art and Art History's graduate seminar. More-than-human experience and sensation. Grounded in American pragmatism and process philosophy. Further: enactivism and embodied cognition, affect theory, panpsychism, and ecological thought in art practice.
 
@@ -13,7 +17,7 @@ Proposed, designed and teaching a new MFA graduate seminar called [Chaosmotic Sy
 
 Awarded internal support for MFA 5010: $600 from Dean's office for guest speakers (Brian Holmes, + 2 forthcoming), $500 from Center for Teaching and Learning for editable wiki structure to augment my teaching website (www.practices.digital).
 
-Speaking 11.9 at the Society for Literature Science and the Arts in Dallas about the live-action role play called I WANT AN AI FOR PRESIDENT.
+Speaking in November at the Society for Literature Science and the Arts in Dallas about the live-action role play called I WANT AN AI FOR PRESIDENT.
 
 ## BEFORE
 

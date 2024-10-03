@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: about
-header: /assets/headers/headshot.png
+headshot: /assets/headers/headshot.png
 ---
 
 I'm an media artist, theorist, researcher, educator, writer, organizer, and programmer.
@@ -25,6 +25,8 @@ I received my PhD in [Media Arts and Sciences](https://artsmediaengineering.asu.
 I have an MA in musicology and a B.Music in Music History from Ohio University. I studied German intensively in undergrad and received a DAAD award to study musicology at the University of Leipzig in 2012.
 
 ### dissertation
+
+My dissertation, defended in November 2022, is available [here](https://keep.lib.asu.edu/items/171591). I am looking for a position that will support building this work out into a monograph.
 
 ### international recognition
 
