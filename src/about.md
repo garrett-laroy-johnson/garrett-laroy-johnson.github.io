@@ -24,7 +24,14 @@ I received my PhD in [Media Arts and Sciences](https://artsmediaengineering.asu.
 
 I have an MA in musicology and a B.Music in Music History from Ohio University. I studied German intensively in undergrad and received a DAAD award to study musicology at the University of Leipzig in 2012.
 
-### dissertation
+### research
+
+I'm currently writing two articles for publication:
+
+- on matrixiality and memory through Bracha Ettinger, Gilbert Simondon, and Hideo Kojima's _Death Stranding_
+- on self-fashioning in the "post-media age" reflecting on teaching creative coding to young adults at public university through Alfred North Whitehead's concepts of understanding, creativity, and expression.
+
+My current talks can be found on my "now" page, or my cv.
 
 My dissertation, defended in November 2022, is available [here](https://keep.lib.asu.edu/items/171591). I am looking for a position that will support building this work out into a monograph.
 
@@ -47,9 +54,15 @@ My work invites artists in the 21st century to think and experiment with (para)i
 
 I am a currently a post-doc researcher at Leonardo/ISAST. I am also an affiliate researcher at [Synthesis Center](http://www.synthesiscenter.net). I also worked as an experimental fellow at the [Center for Philosophical Technologies (2018-2019)](https://centerforphilosophicaltechnologies.org).
 
-I create immersive responsive media environments + installations interactive dance works, various performances for live electronics, laptop orchestra pieces, and sound-based fixed media. I've worked and practiced as an improviser with experimental electronic performance, e.g. with the dark/ambient group [Gulch](https://wearegulch.bandcamp.com/), and with cello and laptop in the group gbjjck. My performative and installation works with live electronic has been featured to SEAMUS, the Oh My Ears! Music Marathon, Interference Series and the ACDA at the Kennedy Center for the Performing Arts, and his installations have been featured at the 2013 ASU Microtonal Music Festival, ARTEL PHX, and commissioned by Scottsdale Public Art for [InFlux Cycle 6.](https://influxaz.com/installation/topo-by-briggs-johnson-and-kautz/)
+### arts practice
 
-I led [LORKAS (The Laptop Orchestra of Arizona State)](https://lorkas.bandcamp.com/album/nodes) from Fall 2013 to Spring 2015 as the group’s director. During his tenure, LORKAS performed at the A2RU national conference, the 2014 Southwest Electronic Music Festival, the 2015 Southwest Maker Festival, the 2015 Oh My Ears new music marathon, Glendale Community College's Experimental Music Festival 2015. During these years, I hosted an array of guests including Cycling 74 developer Tim Place, experimental musician John Wiese, and Mark Hosler of Negativland.
+My arts practice has been featured internationally at art world and interdisciplinary venues alike. odes
+
+Currently my arts practice works in three areas: sound hardware/software, relation dynamics and institutional organizing, and image making.
+
+In sound I maintain an active solo performance practice in Chicago and beyond. I write my own software instruments in Gen~ and load them onto hardware I have designed and built. I am interested in how the iterative interplay between software and hardware can help me to rethink/refeel/rework the modularity of signal processing and event sequencing flows in real-time improvisatory performance.
+
+Throughout my graduate school years, I created responsive media environments + installations interactive dance works, various performances for live electronics and cello, laptop orchestra pieces, and sound-based fixed media. I've worked and practiced as an improviser with experimental electronic performance, e.g. with the dark/ambient group [Gulch](https://wearegulch.bandcamp.com/), and with cello and laptop in the group gbjjck. My performative and installation works with live electronic has been featured to SEAMUS, the Oh My Ears! Music Marathon, Interference Series and the ACDA at the Kennedy Center for the Performing Arts
 
 ### music and musicology background
 
