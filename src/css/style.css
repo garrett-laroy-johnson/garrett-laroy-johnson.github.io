@@ -22,6 +22,11 @@ iframe {
 main {
 }
 
+button {
+  background-color: #232121;
+  font-size: xx-large;
+}
+
 a {
   color: #6f2dbd;
   font-size: xx-large;

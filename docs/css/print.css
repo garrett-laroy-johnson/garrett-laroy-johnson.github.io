@@ -1,0 +1,9 @@
+body {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: small;
+}
+
+hr {
+  break-before: page;
+}

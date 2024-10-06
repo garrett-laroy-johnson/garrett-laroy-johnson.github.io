@@ -1,7 +1,7 @@
 const { DateTime } = require("luxon");
 const pluginSEO = require("eleventy-plugin-seo");
 const clean = require("eleventy-plugin-clean");
-
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 /**
  * This is the JavaScript code that determines the config for your Eleventy site
  *
@@ -10,6 +10,7 @@ const clean = require("eleventy-plugin-clean");
  */
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(clean);
   eleventyConfig.addPassthroughCopy("*.pdf");
   eleventyConfig.setTemplateFormats([
