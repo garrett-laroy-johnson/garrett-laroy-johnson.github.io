@@ -3,7 +3,7 @@ layout: base.njk
 title: NOW
 ---
 
-I am on the job market for both academic jobs (full-time tenure-track || visiting assistant professor) as well as non-academic curatorial and arts organizational positions! I'm happy to talk with hiring committees to see about fit.
+I am on the job market for both academic jobs (full-time tenure-track || visiting assistant professor) as well as non-academic curatorial and arts organizational positions! I'm happy to talk with hiring committees or receive recommendations for jobs that will support my work.
 
 Leonardo Journal's peer-review has recognized my dissertation abstract as a top submission to their [abstract database](https://leonardo.info/graduate-abstracts?gad_source=1&gclid=CjwKCAjwl6-3BhBWEiwApN6_kn8blU9qdZp0qEBIsouYt4SSTRcvjpxzVoBjVI4HgpV_U5gTUt3VixoCOkUQAvD_BwE) and will be printed in their late 2024 publication.
 
@@ -11,7 +11,7 @@ Invited and funded to participate at [MDW 2024 Summit in Kansas City](https://md
 
 Invited talk in October at NYU Tisch IDM: "Media Diagrammatics and the Emergence of Subjectivity".
 
-In Spring 2025, chosen to design UIC's School of Art and Art History's graduate seminar. More-than-human experience and sensation. Grounded in American pragmatism and process philosophy. Further: enactivism and embodied cognition, affect theory, panpsychism, and ecological thought in art practice.
+Chosen to design and teach UIC's School of Art and Art History's graduate seminar in Spring 2025.
 
 Proposed, designed and teaching a new MFA graduate seminar called [Chaosmotic Systems: Chaos, Culture, and Cosmology](https://practices.digital/saic/mfa5010/) in AT/SP at SAIC.
 
