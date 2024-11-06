@@ -3,7 +3,7 @@ layout: base.njk
 title: NOW
 ---
 
-I am on the job market for both academic jobs (full-time tenure-track || visiting assistant professor) as well as non-academic curatorial and arts organizational positions! I'm happy to talk with hiring committees or receive recommendations for jobs that will support my work.
+<!-- I am on the job market for both academic jobs (full-time tenure-track || visiting assistant professor) as well as non-academic curatorial and arts organizational positions! I'm happy to talk with hiring committees or receive recommendations for jobs that will support my work. -->
 
 Leonardo Journal's peer-review has recognized my dissertation abstract as a top submission to their [abstract database](https://leonardo.info/graduate-abstracts?gad_source=1&gclid=CjwKCAjwl6-3BhBWEiwApN6_kn8blU9qdZp0qEBIsouYt4SSTRcvjpxzVoBjVI4HgpV_U5gTUt3VixoCOkUQAvD_BwE) and will be printed in their late 2024 publication.
 
