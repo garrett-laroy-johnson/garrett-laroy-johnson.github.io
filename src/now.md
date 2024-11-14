@@ -29,7 +29,7 @@ Organized and ran a workshop with [CCAM EARTH](https://ccam.world/resources/ccam
 
 Invited and hosted conversations around technology the community-generating aspects of Chicago House Music at an event called [FUTURHYTHMMACHINES::CHICAGO HOUSE](https://ccam.world/programs/24-5-10-future-rhythm-machines-chicago-house/) with guests Dr. Thomas DeFrantz, Dr. Meida McNeal, and Duane Powell.
 
-Joined Leonardo/ISAST as researcher on an [NEA RESEARCH LAB](https://icat.vt.edu/icat-nea-research-lab.html) with Virginia Tech investigating the intersection of artistic sentiment, scientific knowledge economy, and industrial innovation.
+Joined Leonardo/ISAST as researcher on an [NEA RESEARCH LAB](https://www.arts.gov/initiatives/nea-research-labs/all-nea-research-labs#VPI) with Virginia Tech investigating the intersection of artistic sentiment, scientific knowledge economy, and industrial innovation.
 
 Designed a new hardware interface for the Eurorack format built around the Daisy Microcontroller platform. I am also convening a working group to develop this into a hardware software eco-system called CCAM: ESTUARY.
 
