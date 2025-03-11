@@ -29,7 +29,7 @@ undergrad
 
 grad
 
-- 500 // More-than-human Experience, Sense, and Sensation
+- 500 // Visions, Dreams, and Sensations for a New Weird Anthropocene
 
 undergrad
 
