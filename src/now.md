@@ -3,7 +3,30 @@ layout: base.njk
 title: NOW
 ---
 
-<!-- I am on the job market for both academic jobs (full-time tenure-track || visiting assistant professor) as well as non-academic curatorial and arts organizational positions! I'm happy to talk with hiring committees or receive recommendations for jobs that will support my work. -->
+<!-- I am on the job market for both academic jobs (full-time tenure-track || visiting assistant professor) as well as non-academic curatorial and arts organizational positions! I'm happy to talk with hiring committees or
+receive recommendations for jobs that will support my work. -->
+
+## WINTER/SPRING 2025
+
+Successfully proposed the 4000-level course _Post-Capitalist Sorcery: Money Moves, Magic Matters, and Market Mysticism_ at the School of the Art Institute of Chicago.
+
+Showing a large-scale sound and light installation as part of CCAM's [_How to See in the Dark_](https://ccam.world/projects/how-to-see-in-the-dark/#user-content-fn-17) show at Co-Prosperity Sphere opening May 2.
+
+Taught a graduate symposium in the School of Art at University of Illinois Chicago called [Sensations, Visions, and Dreams for a New Weird Anthropocene](https://practices.digital/uic/art520/schedule/).
+
+Wrote a short autotheory book called _Weird Peace_. It works through the cinematic thinking of David Lynch as well as Alfred North Whitehead's concept of Peace.
+
+Taught the 4-part []"Intro to Microsound" course at the Experimental Sound Studio](https://ess.org/esscalendar/2025/intro-to-microsound) in collaboration with CCAM. The course introduced [MaxMSP's gen~ coding environment](https://docs.cycling74.com/legacy/max8/vignettes/gen_topic).
+
+Presented to SAIC's Center for Teaching and Learning the [collaborative wiki environment](https://diagrammatic.media/chaosmotic-systems-wiki/) students used to map concepts, books, and figures in my graduate Chaosmotic Systems course at SAIC.
+
+32-page artist book _Solar Winds_ Edition of 36 gold and black risograph prints. Images created using custom Stabile Diffusion algorithms and customized misappropriated computer vision algorithms.
+
+Invited to give an artist talk at VCU's Kinetic Imaging program.
+
+Invited to participate as part of SAIC's Center for Teaching and Learning's Artificial Intelligence Working Group.
+
+## FALL 2024
 
 Leonardo Journal's peer-review has recognized my dissertation abstract as a top submission to their [abstract database](https://leonardo.info/graduate-abstracts?gad_source=1&gclid=CjwKCAjwl6-3BhBWEiwApN6_kn8blU9qdZp0qEBIsouYt4SSTRcvjpxzVoBjVI4HgpV_U5gTUt3VixoCOkUQAvD_BwE) and will be printed in their late 2024 publication.
 
@@ -11,15 +34,11 @@ Invited and funded to participate at [MDW 2024 Summit in Kansas City](https://md
 
 Invited talk in October at NYU Tisch IDM: "Media Diagrammatics and the Emergence of Subjectivity".
 
-Chosen to design and teach UIC's School of Art and Art History's graduate seminar in Spring 2025.
-
 Proposed, designed and teaching a new MFA graduate seminar called [Chaosmotic Systems: Chaos, Culture, and Cosmology](https://practices.digital/saic/mfa5010/) in AT/SP at SAIC.
 
 Awarded internal support for MFA 5010: $600 from Dean's office for guest speakers (Brian Holmes, + 2 forthcoming), $500 from Center for Teaching and Learning for editable wiki structure to augment my teaching website (www.practices.digital).
 
 Speaking in November at the Society for Literature Science and the Arts in Dallas about the live-action role play called I WANT AN AI FOR PRESIDENT.
-
-## BEFORE
 
 ### SUMMER 2024
 
