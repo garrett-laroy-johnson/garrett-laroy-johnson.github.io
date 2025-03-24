@@ -29,7 +29,7 @@ undergrad
 
 grad
 
-- 500 // Visions, Dreams, and Sensations for a New Weird Anthropocene
+- 500 // Visions, Dreams, and Sensations for a New Weird Anthropocene [Seminar]
 
 undergrad
 
