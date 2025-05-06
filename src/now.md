@@ -6,6 +6,12 @@ title: NOW
 <!-- I am on the job market for both academic jobs (full-time tenure-track || visiting assistant professor) as well as non-academic curatorial and arts organizational positions! I'm happy to talk with hiring committees or
 receive recommendations for jobs that will support my work. -->
 
+## SUMMER/FALL 2025
+
+Presenting at the Audio Engineering Society (AAS) at Shure HQ in Niles, IL. May.
+
+Presenting at Is it Too Late? a symposium organized by the Center for Process Studies.
+
 ## WINTER/SPRING 2025
 
 Successfully proposed the 4000-level course _Post-Capitalist Sorcery: Money Moves, Magic Matters, and Market Mysticism_ at the School of the Art Institute of Chicago.
