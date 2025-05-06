@@ -10,7 +10,7 @@ receive recommendations for jobs that will support my work. -->
 
 Presenting at the Audio Engineering Society (AAS) at Shure HQ in Niles, IL. May.
 
-Presenting at Is it Too Late? a symposium organized by the Center for Process Studies.
+Presenting at Is it Too Late? a symposium organized by the Center for Process Studies. June.
 
 ## WINTER/SPRING 2025
 
